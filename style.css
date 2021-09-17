@@ -1,0 +1,34 @@
+svg {
+  overflow: visible;
+}
+#snake {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  width: 300px;
+}
+#pineapple {
+  position: absolute;
+  top: 68px;
+  left: 297px;
+  width: 172px;
+}
+
+#snake-1,
+#snake-2,
+#snake-3,
+#snake-4,
+#snake-5,
+#snake-6,
+#snake-7,
+#pineapple-1,
+#pineapple-2,
+#pineapple-3,
+#pineapple-4,
+#pineapple-5 {
+  visibility: hidden;
+}
+
+#pineapple .cls-1 {
+  fill: #fff;
+}
